@@ -1,0 +1,168 @@
+
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+  font-size: 100%;
+}
+p{
+  line-height: 2;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  color: #36AE7C;
+  font-size: 250%;
+
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #36AE7C;
+}
+
+
+h1{
+  margin: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 90px;
+  color: #66BFBF;
+  margin-top: 70px;
+
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #DAE5D0;
+  border-width: 10px;
+  width: 5%;
+  margin: 100px auto;
+}
+
+.caption{
+  color: #66BFBF;
+  font-size: 1.56rem;
+  margin-top: 0;
+
+}
+
+
+
+a{
+  color: #11999E;
+
+
+}
+.top-panel{
+  background-color: #E8F9FD;
+  text-align: right;
+  padding: 3.125rem 3.125rem 1.563rem;
+
+}
+.top-link{
+  text-align: center;
+  display: inline-block;
+  color: #66BFBF;
+  width: 100px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 120%;
+  transition: 0.3s;
+
+}
+
+.top-link:hover{
+  color: white;
+  text-decoration: none;
+
+}
+
+.top-container{
+  background-color: #E8F9FD;
+  position: relative;
+  padding-top: 1.25rem;
+  margin-bottom: 6.25rem;
+
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+
+}
+
+.skill1{
+  width: 20.3%;
+  float: left;
+  margin-right: 30px;
+}
+.skill2{
+  width: 20.3%;
+  float: right;
+  margin-left: 30px;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 400px;
+}
+
+.profile{
+  padding-top: 10px;
+
+}
+
+.middle-container{
+
+}
+.contactmessage{
+  width: 30%;
+  margin: 40px auto 40px;
+}
+
+.bottom-container{
+  background-color: #BDF2D5;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+}
+
+.btn:hover{
+  background-color: #36AE7C;
+}
+
+
+.footer-link{
+  display: inline-block;
+  width: 200px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #36AE7C;
+  font-size: 25px;
+  transition: 0.5s;
+}
+
+.footer-link:hover{
+
+  color: white;
+  text-decoration: none;
+
+}
