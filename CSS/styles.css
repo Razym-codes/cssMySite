@@ -153,6 +153,10 @@ a {
     font-size: 125%;
     width: 200px;
   }
+  
+  .name {
+   font-size: 100%; 
+  }
 
   .intro {
     width: 70%;
