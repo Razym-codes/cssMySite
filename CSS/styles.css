@@ -165,7 +165,7 @@ a {
     right: 150px;
   }
   .bottom-cloud {
-    left: 150px;
+    display: none;
   }
   .skill-row {
     width: 70%;
