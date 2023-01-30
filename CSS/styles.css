@@ -5,6 +5,7 @@ body {
   color: #40514e;
   font-size: 100%;
 }
+
 p {
   line-height: 2;
 }
@@ -20,10 +21,10 @@ h3 {
   color: #36ae7c;
 }
 
-h1 {
+.name {
   margin: 0;
   font-family: "Sacramento", cursive;
-  font-size: 90px;
+  font-size: 5.625rem;
   color: #66bfbf;
   margin-top: 70px;
 }
@@ -116,8 +117,6 @@ a {
   padding-top: 10px;
 }
 
-.middle-container {
-}
 .contactmessage {
   width: 30%;
   margin: 40px auto 40px;
@@ -151,8 +150,12 @@ a {
 
 @media only screen and (max-width: 768px) {
   .top-link {
-    font-size: 200%;
+    font-size: 125%;
     width: 200px;
+  }
+
+  .name {
+    font-size: 5.625rem;
   }
 
   .intro {
@@ -178,6 +181,9 @@ a {
 }
 
 @media only screen and (max-width: 576px) {
+  hr {
+    width: 20%;
+  }
   .top-panel {
     text-align: center;
     padding: 1.5rem 1.5rem 1rem;
