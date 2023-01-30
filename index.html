@@ -1,78 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Razym</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Razym</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="CSS/styles.css">
-  <link rel="icon" href="favicon1.ico">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <!-- Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap CDN -->
 
-</head>
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <link rel="icon" href="favicon1.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-
-  <div class="top-panel">
-    <a class="top-link" href="#">Home</a>
-    <a class="top-link" href="#"> Work</a>
-    <a class="top-link" href="#">About</a>
-
-
-  </div>
-
-  <div class="top-container">
-    <img class="top-cloud" src="CSS/Images/cloud.png" alt="cloud">
-    <h1>I'm Razym.</h1> <br>
-    <h2 class="caption">a web designer.</h2>
-    <img class="bottom-cloud" src="CSS/Images/cloud.png" alt="cloud">
-    <img src="CSS/Images/mountain.png" alt="mountain">
-
-  </div>
-  <div class="middle-container">
-    <div class="profile">
-      <img src="CSS/Images/Display Pic.png" height="170" width="170" alt="">
-      <h2>Hello.</h2>
-      <p class="intro">I'm a web developer. I design and create curated websites for brands and people. I ❤️ coffee. </p>
-    </div>
-    <hr>
-    <div class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <img class="skill1" src="CSS/Images/programming.png" alt="codeimg">
-        <h3>Web Develpment</h3>
-        <p>I started designing web designing as a hobby. This was my way of killing boredom. Over time, I have gained a wealth of experience designing and developing web applications.</p>
+  <body>
+    <nav class="navbar navbar-expand-lg top-panel">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link top-link" aria-current="page" href="#landing"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link top-link" href="#contact">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link top-link" href="#about">About</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="skill-row">
-        <img class="skill2" src="CSS/Images/tv.png" alt="tv">
-        <h3>Binging Movies</h3>
-        <p>One of my underrated skills is binging movies. I can sit all day watching back to back movies. This is how I recharge myself on weekends.</p>
+    </nav>
+
+    <div id="landing" class="top-container">
+      <img class="top-cloud" src="CSS/Images/cloud.png" alt="cloud" />
+      <h1>I'm Razym.</h1>
+      <br />
+      <h2 class="caption">a web designer.</h2>
+      <img class="bottom-cloud" src="CSS/Images/cloud.png" alt="cloud" />
+      <img
+        class="mountain-image"
+        src="CSS/Images/mountain.png"
+        alt="mountain"
+      />
+    </div>
+    <div id="about" class="middle-container">
+      <div class="profile">
+        <img src="CSS/Images/Display Pic.png" height="170" width="170" alt="" />
+        <h2>Hello.</h2>
+        <p class="intro">
+          I'm a web developer. I design and create curated websites for brands
+          and people. I ❤️ coffee.
+        </p>
+      </div>
+      <hr />
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="skill1" src="CSS/Images/programming.png" alt="codeimg" />
+          <h3>Web Develpment</h3>
+          <p>
+            I started designing web designing as a hobby. This was my way of
+            killing boredom. Over time, I have gained a wealth of experience
+            designing and developing web applications.
+          </p>
+        </div>
+        <div class="skill-row">
+          <img class="skill2" src="CSS/Images/tv.png" alt="tv" />
+          <h3>Binging Movies</h3>
+          <p>
+            One of my underrated skills is binging movies. I can sit all day
+            watching back to back movies. This is how I recharge myself on
+            weekends.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div id="contact" class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>If you want to build your own website.</h3>
+        <p class="contactmessage">
+          Let's bring what you have in your mind to screen! We can talk about
+          movies while we code.
+        </p>
+        <br />
+        <!-- <a class="btn" href="mailto:syedzidane88@email.com">CONTACT ME</a> -->
+        <button
+          type="button"
+          class="btn btn-outline-info"
+          href="mailto:abdulraseem87@gmail.com"
+        >
+          CONTACT ME
+        </button>
       </div>
     </div>
-    <hr>
-    <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>If you want to build your own website.</h3>
-      <p class="contactmessage">Let's bring what you have in your mind to screen! We can talk about movies while we code.</p><br>
-      <!-- <a class="btn" href="mailto:syedzidane88@email.com">CONTACT ME</a> -->
-      <button type="button" class="btn btn-outline-info" href="mailto:abdulraseem87@gmail.com"> CONTACT ME </button>
+
+    <div class="bottom-container">
+      <a
+        class="footer-link"
+        href="https://linkedin.com/in/abdul-raseem-a50834167"
+        >LinkedIn</a
+      >
+      <a class="footer-link" href="https://github.com/Razym-codes">Github</a>
+      <a class="footer-link" href="mailto:abdulraseem87@gmail.com">Email</a>
+      <p>© 2023 Abdul Raseem.</p>
     </div>
-  </div>
-
-
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-    <a class="footer-link" href="https://twitter.com/">Twitter</a>
-    <a class="footer-link" href="">Website</a>
-    <p>© 2022 Abdul Raseem.</p>
-  </div>
-
-
-
-</body>
-
+  </body>
 </html>
